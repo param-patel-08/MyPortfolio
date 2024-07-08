@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fff;
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.menu span {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar-content {
+    margin-left: 50px;
+}
+
+.sidebar .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 8px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #f1f1f1;
+}
+
+.contact-info {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-media a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
